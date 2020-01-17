@@ -1,4 +1,6 @@
-# IRE/NICAR conference teaching guide for "Python: Intro to data analysis using pandas"
+# IRE/NICAR conference teaching guide for "Python: Data cleaning and visualization"
+
+(This is all TK for the moment)
 
 Thank you for volunteering to teach this one-hour session on using the `pandas` library to analyze data. This teaching guide explains our setup and the material to cover.
 
@@ -7,7 +9,7 @@ The class is one hour long. The exercises live in [this Jupyter notebook](Introd
 It would be a good idea to [take a spin through the notebook](#run-the-notebook) prior to teaching the session.
 
 ## Session description
-Imagine rolling Excel and MySQL into one tool that also allows you to track your code and share it. That's `pandas` in a nutshell. There's a lot more you can do with it, of course, but this will be a good start. We'll learn how to slice and dice our data and extract basic stats. Specifically, we'll cover loading the data, filtering, sorting and grouping data. 
+Imagine rolling Excel and MySQL into one tool that also allows you to track your code and share it. That's `pandas` in a nutshell. There's a lot more you can do with it, of course, but this will be a good start. We'll learn how to slice and dice our data and extract basic stats. Specifically, we'll cover loading the data, filtering, sorting and grouping data.
 
 This class is good for: People who are comfortable with Excel and are familiar with the basics of SQL and Python. We recommend that you attend the Python 101 session or have equivalent experience before coming to this class.
 
