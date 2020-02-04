@@ -1,33 +1,29 @@
 # IRE/NICAR conference teaching guide for "Python: Data cleaning and visualization"
 
-(This is all TK for the moment)
+Thank you for volunteering to teach this one-hour session on using the `pandas` library to clean and visualize data. This teaching guide explains our setup and the material to cover.
 
-Thank you for volunteering to teach this one-hour session on using the `pandas` library to analyze data. This teaching guide explains our setup and the material to cover.
-
-The class is one hour long. The exercises live in [this Jupyter notebook](Introduction%20to%20pandas.ipynb).
+The class is one hour long. The exercises live in [this Jupyter notebook](Data%20cleaning%20and%20visualization%20with%20pandas.ipynb).
 
 It would be a good idea to [take a spin through the notebook](#run-the-notebook) prior to teaching the session.
 
 ## Session description
-Imagine rolling Excel and MySQL into one tool that also allows you to track your code and share it. That's `pandas` in a nutshell. There's a lot more you can do with it, of course, but this will be a good start. We'll learn how to slice and dice our data and extract basic stats. Specifically, we'll cover loading the data, filtering, sorting and grouping data.
+Now that you’ve got a handle on Pandas, it’s time to jump into some advanced topics. You know how to import a dataset, but what happens when you load the data and nothing looks right? We’ll walk through cleaning up a dirty dataset with Pandas. Then we’ll jump into the fun part: visualizing the data you’ve analyzed.
 
-This class is good for: People who are comfortable with Excel and are familiar with the basics of SQL and Python. We recommend that you attend the Python 101 session or have equivalent experience before coming to this class.
+This session is good for: People who can load and perform basic summary and grouping functions in Pandas.
 
 ## Session goals
 Attendees should leave with a basic understanding of:
-- How to write and run Python code in a Jupyter notebook
-- When it makes sense to script your analysis (as opposed to just using Excel, SQL, etc.)
-- Loading a CSV into a `pandas` dataframe
-- Inspecting the dataframe with `head()`, `describe()` and other methods
-- Sorting data with `sort_values()`
-- Filtering data
-- Grouping data (if time)
-- Where to find [instructions for installing Python on their own machines](https://docs.google.com/document/d/1cYmpfZEZ8r-09Q6Go917cKVcQk_d0P61gm0q8DAdIdg/edit#)
-- How to find help when they get stuck
+- Grouping data
+- Normalizing dirty data
+- Renaming columns
+- Creating new columns from existing columns
+- Merging dataframes
+- Visualizing data with bar charts and matplotlib
+- Visualizing data with maps and geopandas
 
 ## Things you don't need to cover
 - Anything related to virtual environments
-- Applying custom/lambda functions to a dataframe
+- Things already covered in Python I and II
 
 ## General approach
 I Do, We Do, You Do. Demonstrate a concept, go through it together, then give them plenty of time to experiment on their own while you and your coach walk around and answer questions (see sections marked `✍️ Try it yourself`). The pace will be slower than you think, and that's OK! It's not the end of the world if you don't get through everything.
@@ -53,7 +49,8 @@ Once everyone is good to go, toggle back to the terminal and show them what's go
 Go over some notebook basics: Adding cells, writing code and running cells, etc. A common beginner gotcha: Writing code that other cells depend on but forgetting to first _run_ it to make it available.
 
 ### Main course content
-Start marching down the notebook: Importing pandas, loading data from file, sorting, filtering, grouping. Pause frequently to ask if anyone has questions.
+Start marching down the 
+notebook: Importing pandas, loading data from file, sorting, filtering, grouping. Pause frequently to ask if anyone has questions.
 
 Any time you see `✍️ Try it yourself`, hit the brakes and give everyone time to play around with whatever concept you're discussing.
 
