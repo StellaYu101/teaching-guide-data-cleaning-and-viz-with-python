@@ -9,5 +9,8 @@ verify_ssl = true
 jupyter = "*"
 pandas = "*"
 matplotlib = "*"
+geopandas = "*"
+mapclassify = "*"
+descartes = "*"
 
 [requires]
